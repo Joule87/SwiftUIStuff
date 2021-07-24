@@ -17,7 +17,14 @@
 		861F0CDF26A6DFF100052E5A /* Transition0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F0CDE26A6DFF100052E5A /* Transition0.swift */; };
 		861F0CE226A6DFFA00052E5A /* List0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F0CE126A6DFFA00052E5A /* List0.swift */; };
 		861F0CE526A6E33700052E5A /* List1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F0CE426A6E33700052E5A /* List1.swift */; };
+		8621E7D526AB875E00E1098F /* ForeEachSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621E7D426AB875E00E1098F /* ForeEachSample.swift */; };
+		8621E7D926AB895900E1098F /* TextField0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621E7D826AB895900E1098F /* TextField0.swift */; };
 		8661728F26A83AD4007C6ABC /* ActionSheet0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661728E26A83AD4007C6ABC /* ActionSheet0.swift */; };
+		86B34E0B26AC2DC300397A2C /* TextEditor0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E0A26AC2DC300397A2C /* TextEditor0.swift */; };
+		86B34E1126AC313200397A2C /* Toggle0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1026AC313200397A2C /* Toggle0.swift */; };
+		86B34E1626AC341400397A2C /* Picker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1526AC341400397A2C /* Picker0.swift */; };
+		86B34E1A26AC378F00397A2C /* Picker1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1926AC378F00397A2C /* Picker1.swift */; };
+		86B34E1D26AC392900397A2C /* Picker2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1C26AC392900397A2C /* Picker2.swift */; };
 		86D1754526A7968200D18C1E /* Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D1754426A7968200D18C1E /* Alert1.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +41,14 @@
 		861F0CDE26A6DFF100052E5A /* Transition0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition0.swift; sourceTree = "<group>"; };
 		861F0CE126A6DFFA00052E5A /* List0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List0.swift; sourceTree = "<group>"; };
 		861F0CE426A6E33700052E5A /* List1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List1.swift; sourceTree = "<group>"; };
+		8621E7D426AB875E00E1098F /* ForeEachSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeEachSample.swift; sourceTree = "<group>"; };
+		8621E7D826AB895900E1098F /* TextField0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField0.swift; sourceTree = "<group>"; };
 		8661728E26A83AD4007C6ABC /* ActionSheet0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet0.swift; sourceTree = "<group>"; };
+		86B34E0A26AC2DC300397A2C /* TextEditor0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor0.swift; sourceTree = "<group>"; };
+		86B34E1026AC313200397A2C /* Toggle0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle0.swift; sourceTree = "<group>"; };
+		86B34E1526AC341400397A2C /* Picker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker0.swift; sourceTree = "<group>"; };
+		86B34E1926AC378F00397A2C /* Picker1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker1.swift; sourceTree = "<group>"; };
+		86B34E1C26AC392900397A2C /* Picker2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker2.swift; sourceTree = "<group>"; };
 		86D1754426A7968200D18C1E /* Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,11 +103,16 @@
 		861F0CD326A6DF9800052E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				86B34E1426AC340600397A2C /* Picker */,
+				86B34E0F26AC312200397A2C /* Toogle */,
+				86B34E0926AC2DB000397A2C /* TextEditor */,
+				8621E7D726AB893D00E1098F /* TextField */,
 				8661728D26A83ABE007C6ABC /* ActionSheet */,
 				86D1754326A7967600D18C1E /* Alert */,
 				861F0CD626A6DFB200052E5A /* List */,
 				861F0CD526A6DFAA00052E5A /* Transition */,
 				861F0CD426A6DFA100052E5A /* Animation */,
+				8621E7D426AB875E00E1098F /* ForeEachSample.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,12 +144,46 @@
 			path = List;
 			sourceTree = "<group>";
 		};
+		8621E7D726AB893D00E1098F /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				8621E7D826AB895900E1098F /* TextField0.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		8661728D26A83ABE007C6ABC /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
 				8661728E26A83AD4007C6ABC /* ActionSheet0.swift */,
 			);
 			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		86B34E0926AC2DB000397A2C /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				86B34E0A26AC2DC300397A2C /* TextEditor0.swift */,
+			);
+			path = TextEditor;
+			sourceTree = "<group>";
+		};
+		86B34E0F26AC312200397A2C /* Toogle */ = {
+			isa = PBXGroup;
+			children = (
+				86B34E1026AC313200397A2C /* Toggle0.swift */,
+			);
+			path = Toogle;
+			sourceTree = "<group>";
+		};
+		86B34E1426AC340600397A2C /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				86B34E1526AC341400397A2C /* Picker0.swift */,
+				86B34E1926AC378F00397A2C /* Picker1.swift */,
+				86B34E1C26AC392900397A2C /* Picker2.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 		86D1754326A7967600D18C1E /* Alert */ = {
@@ -210,11 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B34E1626AC341400397A2C /* Picker0.swift in Sources */,
+				8621E7D926AB895900E1098F /* TextField0.swift in Sources */,
 				8661728F26A83AD4007C6ABC /* ActionSheet0.swift in Sources */,
+				86B34E0B26AC2DC300397A2C /* TextEditor0.swift in Sources */,
 				861F0CE226A6DFFA00052E5A /* List0.swift in Sources */,
 				861F0CDA26A6DFD900052E5A /* Animation1.swift in Sources */,
+				8621E7D526AB875E00E1098F /* ForeEachSample.swift in Sources */,
+				86B34E1A26AC378F00397A2C /* Picker1.swift in Sources */,
+				86B34E1D26AC392900397A2C /* Picker2.swift in Sources */,
 				861F0CBD26A6DF3800052E5A /* ContentView.swift in Sources */,
 				861F0CE526A6E33700052E5A /* List1.swift in Sources */,
+				86B34E1126AC313200397A2C /* Toggle0.swift in Sources */,
 				861F0CDC26A6DFD900052E5A /* Animation2.swift in Sources */,
 				861F0CBB26A6DF3800052E5A /* SwiftUIStuffApp.swift in Sources */,
 				861F0CDB26A6DFD900052E5A /* Animation0.swift in Sources */,

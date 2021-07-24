@@ -13,7 +13,7 @@ struct ActionSheet0: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Button("Open menu") {
+            Button("Open context menu") {
                 showContextMenu.toggle()
             }
             .contextMenu(menuItems: {
@@ -29,12 +29,10 @@ struct ActionSheet0: View {
                     ActionSheet.Button.cancel(),
                     ActionSheet.Button.destructive(Text("Destroy")),
                     ActionSheet.Button.default(Text("OK")),
-                
+                    
                 ])
-        })
+            })
         }
-        
-        
     }
 }
 
