@@ -28,6 +28,7 @@
 		86D1754526A7968200D18C1E /* Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D1754426A7968200D18C1E /* Alert1.swift */; };
 		86E53D4D26AD875100BEE8C1 /* ColorPicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */; };
 		86E53D5126AD890C00BEE8C1 /* DatePicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */; };
+		86E53D5626AD8FFE00BEE8C1 /* Stepper0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D5526AD8FFE00BEE8C1 /* Stepper0.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		86D1754426A7968200D18C1E /* Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert1.swift; sourceTree = "<group>"; };
 		86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker0.swift; sourceTree = "<group>"; };
 		86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker0.swift; sourceTree = "<group>"; };
+		86E53D5526AD8FFE00BEE8C1 /* Stepper0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper0.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		861F0CD326A6DF9800052E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				86E53D5426AD8FE900BEE8C1 /* Stepper */,
 				86E53D4F26AD88F900BEE8C1 /* DatePicker */,
 				86E53D4B26AD873C00BEE8C1 /* ColorPiker */,
 				86B34E1426AC340600397A2C /* Picker */,
@@ -216,6 +219,14 @@
 			path = DatePicker;
 			sourceTree = "<group>";
 		};
+		86E53D5426AD8FE900BEE8C1 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				86E53D5526AD8FFE00BEE8C1 /* Stepper0.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,6 +312,7 @@
 				86B34E1126AC313200397A2C /* Toggle0.swift in Sources */,
 				861F0CDC26A6DFD900052E5A /* Animation2.swift in Sources */,
 				861F0CBB26A6DF3800052E5A /* SwiftUIStuffApp.swift in Sources */,
+				86E53D5626AD8FFE00BEE8C1 /* Stepper0.swift in Sources */,
 				861F0CDB26A6DFD900052E5A /* Animation0.swift in Sources */,
 				86D1754526A7968200D18C1E /* Alert1.swift in Sources */,
 				861F0CDF26A6DFF100052E5A /* Transition0.swift in Sources */,
