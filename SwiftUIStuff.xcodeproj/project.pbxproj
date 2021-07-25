@@ -26,6 +26,8 @@
 		86B34E1A26AC378F00397A2C /* Picker1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1926AC378F00397A2C /* Picker1.swift */; };
 		86B34E1D26AC392900397A2C /* Picker2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1C26AC392900397A2C /* Picker2.swift */; };
 		86D1754526A7968200D18C1E /* Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D1754426A7968200D18C1E /* Alert1.swift */; };
+		86E53D4D26AD875100BEE8C1 /* ColorPicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */; };
+		86E53D5126AD890C00BEE8C1 /* DatePicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		86B34E1926AC378F00397A2C /* Picker1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker1.swift; sourceTree = "<group>"; };
 		86B34E1C26AC392900397A2C /* Picker2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker2.swift; sourceTree = "<group>"; };
 		86D1754426A7968200D18C1E /* Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert1.swift; sourceTree = "<group>"; };
+		86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker0.swift; sourceTree = "<group>"; };
+		86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker0.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 		861F0CD326A6DF9800052E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				86E53D4F26AD88F900BEE8C1 /* DatePicker */,
+				86E53D4B26AD873C00BEE8C1 /* ColorPiker */,
 				86B34E1426AC340600397A2C /* Picker */,
 				86B34E0F26AC312200397A2C /* Toogle */,
 				86B34E0926AC2DB000397A2C /* TextEditor */,
@@ -194,6 +200,22 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		86E53D4B26AD873C00BEE8C1 /* ColorPiker */ = {
+			isa = PBXGroup;
+			children = (
+				86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */,
+			);
+			path = ColorPiker;
+			sourceTree = "<group>";
+		};
+		86E53D4F26AD88F900BEE8C1 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,6 +293,8 @@
 				861F0CDA26A6DFD900052E5A /* Animation1.swift in Sources */,
 				8621E7D526AB875E00E1098F /* ForeEachSample.swift in Sources */,
 				86B34E1A26AC378F00397A2C /* Picker1.swift in Sources */,
+				86E53D5126AD890C00BEE8C1 /* DatePicker0.swift in Sources */,
+				86E53D4D26AD875100BEE8C1 /* ColorPicker0.swift in Sources */,
 				86B34E1D26AC392900397A2C /* Picker2.swift in Sources */,
 				861F0CBD26A6DF3800052E5A /* ContentView.swift in Sources */,
 				861F0CE526A6E33700052E5A /* List1.swift in Sources */,
