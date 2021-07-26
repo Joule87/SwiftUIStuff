@@ -25,6 +25,7 @@
 		86B34E1626AC341400397A2C /* Picker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1526AC341400397A2C /* Picker0.swift */; };
 		86B34E1A26AC378F00397A2C /* Picker1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1926AC378F00397A2C /* Picker1.swift */; };
 		86B34E1D26AC392900397A2C /* Picker2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1C26AC392900397A2C /* Picker2.swift */; };
+		86CABF2D26AF795500E8799C /* Slider0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CABF2C26AF795500E8799C /* Slider0.swift */; };
 		86D1754526A7968200D18C1E /* Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D1754426A7968200D18C1E /* Alert1.swift */; };
 		86E53D4D26AD875100BEE8C1 /* ColorPicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */; };
 		86E53D5126AD890C00BEE8C1 /* DatePicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */; };
@@ -52,6 +53,7 @@
 		86B34E1526AC341400397A2C /* Picker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker0.swift; sourceTree = "<group>"; };
 		86B34E1926AC378F00397A2C /* Picker1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker1.swift; sourceTree = "<group>"; };
 		86B34E1C26AC392900397A2C /* Picker2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker2.swift; sourceTree = "<group>"; };
+		86CABF2C26AF795500E8799C /* Slider0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider0.swift; sourceTree = "<group>"; };
 		86D1754426A7968200D18C1E /* Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert1.swift; sourceTree = "<group>"; };
 		86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker0.swift; sourceTree = "<group>"; };
 		86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker0.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		861F0CD326A6DF9800052E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				86CABF2B26AF794500E8799C /* Slider */,
 				86E53D5426AD8FE900BEE8C1 /* Stepper */,
 				86E53D4F26AD88F900BEE8C1 /* DatePicker */,
 				86E53D4B26AD873C00BEE8C1 /* ColorPiker */,
@@ -193,6 +196,14 @@
 				86B34E1C26AC392900397A2C /* Picker2.swift */,
 			);
 			path = Picker;
+			sourceTree = "<group>";
+		};
+		86CABF2B26AF794500E8799C /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				86CABF2C26AF795500E8799C /* Slider0.swift */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 		86D1754326A7967600D18C1E /* Alert */ = {
@@ -300,6 +311,7 @@
 				8621E7D926AB895900E1098F /* TextField0.swift in Sources */,
 				8661728F26A83AD4007C6ABC /* ActionSheet0.swift in Sources */,
 				86B34E0B26AC2DC300397A2C /* TextEditor0.swift in Sources */,
+				86CABF2D26AF795500E8799C /* Slider0.swift in Sources */,
 				861F0CE226A6DFFA00052E5A /* List0.swift in Sources */,
 				861F0CDA26A6DFD900052E5A /* Animation1.swift in Sources */,
 				8621E7D526AB875E00E1098F /* ForeEachSample.swift in Sources */,
