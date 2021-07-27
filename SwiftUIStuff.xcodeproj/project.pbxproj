@@ -20,6 +20,7 @@
 		8621E7D526AB875E00E1098F /* ForeEachSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621E7D426AB875E00E1098F /* ForeEachSample.swift */; };
 		8621E7D926AB895900E1098F /* TextField0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621E7D826AB895900E1098F /* TextField0.swift */; };
 		8661728F26A83AD4007C6ABC /* ActionSheet0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661728E26A83AD4007C6ABC /* ActionSheet0.swift */; };
+		869D0DAF26B0323900910882 /* OnAppear0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D0DAE26B0323900910882 /* OnAppear0.swift */; };
 		86B34E0B26AC2DC300397A2C /* TextEditor0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E0A26AC2DC300397A2C /* TextEditor0.swift */; };
 		86B34E1126AC313200397A2C /* Toggle0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1026AC313200397A2C /* Toggle0.swift */; };
 		86B34E1626AC341400397A2C /* Picker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B34E1526AC341400397A2C /* Picker0.swift */; };
@@ -51,6 +52,7 @@
 		8621E7D426AB875E00E1098F /* ForeEachSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeEachSample.swift; sourceTree = "<group>"; };
 		8621E7D826AB895900E1098F /* TextField0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField0.swift; sourceTree = "<group>"; };
 		8661728E26A83AD4007C6ABC /* ActionSheet0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet0.swift; sourceTree = "<group>"; };
+		869D0DAE26B0323900910882 /* OnAppear0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppear0.swift; sourceTree = "<group>"; };
 		86B34E0A26AC2DC300397A2C /* TextEditor0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor0.swift; sourceTree = "<group>"; };
 		86B34E1026AC313200397A2C /* Toggle0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle0.swift; sourceTree = "<group>"; };
 		86B34E1526AC341400397A2C /* Picker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker0.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		861F0CD326A6DF9800052E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				869D0DAD26B0322200910882 /* OnAppear */,
 				86CABF3326AF8B9700E8799C /* DarkMode */,
 				86CABF2E26AF816E00E8799C /* TabView */,
 				86CABF2B26AF794500E8799C /* Slider */,
@@ -178,6 +181,14 @@
 				8661728E26A83AD4007C6ABC /* ActionSheet0.swift */,
 			);
 			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		869D0DAD26B0322200910882 /* OnAppear */ = {
+			isa = PBXGroup;
+			children = (
+				869D0DAE26B0323900910882 /* OnAppear0.swift */,
+			);
+			path = OnAppear;
 			sourceTree = "<group>";
 		};
 		86B34E0926AC2DB000397A2C /* TextEditor */ = {
@@ -352,6 +363,7 @@
 				86B34E1126AC313200397A2C /* Toggle0.swift in Sources */,
 				861F0CDC26A6DFD900052E5A /* Animation2.swift in Sources */,
 				861F0CBB26A6DF3800052E5A /* SwiftUIStuffApp.swift in Sources */,
+				869D0DAF26B0323900910882 /* OnAppear0.swift in Sources */,
 				86E53D5626AD8FFE00BEE8C1 /* Stepper0.swift in Sources */,
 				861F0CDB26A6DFD900052E5A /* Animation0.swift in Sources */,
 				86D1754526A7968200D18C1E /* Alert1.swift in Sources */,
