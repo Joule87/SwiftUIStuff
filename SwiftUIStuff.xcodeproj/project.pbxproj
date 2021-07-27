@@ -28,6 +28,7 @@
 		86CABF2D26AF795500E8799C /* Slider0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CABF2C26AF795500E8799C /* Slider0.swift */; };
 		86CABF3026AF818700E8799C /* TabViewBar0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CABF2F26AF818700E8799C /* TabViewBar0.swift */; };
 		86CABF3226AF867600E8799C /* TabViewBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CABF3126AF867600E8799C /* TabViewBar1.swift */; };
+		86CABF3526AF8BA700E8799C /* DarkMode0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CABF3426AF8BA700E8799C /* DarkMode0.swift */; };
 		86D1754526A7968200D18C1E /* Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D1754426A7968200D18C1E /* Alert1.swift */; };
 		86E53D4D26AD875100BEE8C1 /* ColorPicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */; };
 		86E53D5126AD890C00BEE8C1 /* DatePicker0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */; };
@@ -58,6 +59,7 @@
 		86CABF2C26AF795500E8799C /* Slider0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider0.swift; sourceTree = "<group>"; };
 		86CABF2F26AF818700E8799C /* TabViewBar0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBar0.swift; sourceTree = "<group>"; };
 		86CABF3126AF867600E8799C /* TabViewBar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBar1.swift; sourceTree = "<group>"; };
+		86CABF3426AF8BA700E8799C /* DarkMode0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode0.swift; sourceTree = "<group>"; };
 		86D1754426A7968200D18C1E /* Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert1.swift; sourceTree = "<group>"; };
 		86E53D4C26AD875100BEE8C1 /* ColorPicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker0.swift; sourceTree = "<group>"; };
 		86E53D5026AD890C00BEE8C1 /* DatePicker0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker0.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		861F0CD326A6DF9800052E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				86CABF3326AF8B9700E8799C /* DarkMode */,
 				86CABF2E26AF816E00E8799C /* TabView */,
 				86CABF2B26AF794500E8799C /* Slider */,
 				86E53D5426AD8FE900BEE8C1 /* Stepper */,
@@ -218,6 +221,14 @@
 				86CABF3126AF867600E8799C /* TabViewBar1.swift */,
 			);
 			path = TabView;
+			sourceTree = "<group>";
+		};
+		86CABF3326AF8B9700E8799C /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				86CABF3426AF8BA700E8799C /* DarkMode0.swift */,
+			);
+			path = DarkMode;
 			sourceTree = "<group>";
 		};
 		86D1754326A7967600D18C1E /* Alert */ = {
@@ -330,6 +341,7 @@
 				861F0CDA26A6DFD900052E5A /* Animation1.swift in Sources */,
 				8621E7D526AB875E00E1098F /* ForeEachSample.swift in Sources */,
 				86CABF3226AF867600E8799C /* TabViewBar1.swift in Sources */,
+				86CABF3526AF8BA700E8799C /* DarkMode0.swift in Sources */,
 				86B34E1A26AC378F00397A2C /* Picker1.swift in Sources */,
 				86E53D5126AD890C00BEE8C1 /* DatePicker0.swift in Sources */,
 				86E53D4D26AD875100BEE8C1 /* ColorPicker0.swift in Sources */,
